@@ -10,5 +10,31 @@
     "tslint.json": "*",
     "nx.json": "*"
   },
-  "projects": {}
+  "projects": {
+    "store": {
+      "tags": []
+    },
+    "store-e2e": {
+      "tags": [],
+      "implicitDependencies": ["store"]
+    },
+    "libs-store-ui-shared": {
+      "tags": []
+    },
+    "libs-ui-shared": {
+      "tags": []
+    },
+    "libs-libs-store-ui-shared": {
+      "tags": []
+    },
+    "store-ui-shared": {
+      "tags": []
+    },
+    "store-util-formatters": {
+      "tags": []
+    },
+    "store-feature-game-detail": {
+      "tags": []
+    }
+  }
 }
